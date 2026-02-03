@@ -1,0 +1,42 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+envtui
+envtui.exe
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.backup.*
+.env.backup.*
+
+# Debug files
+*.txt
+debug*.go
+
+# Build artifacts
+dist/
+build/
